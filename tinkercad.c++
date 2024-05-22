@@ -12,10 +12,8 @@ int tmp = 300;
 
 void setup() {
     // Define os pinos como saida
-    pinMode(velM1, OUTPUT);
     pinMode(motor1H, OUTPUT);
     pinMode(motor1L, OUTPUT);
-    pinMode(velM2, OUTPUT);
     pinMode(motor2H, OUTPUT);
     pinMode(motor2L, OUTPUT);
     pinMode(foto1, INPUT);
@@ -62,9 +60,6 @@ void pare() {
 void loop() {
   // Define a velocidade de rotacao
   int rpm = 255;
-  digitalWrite(velM1, rpm);
-  digitalWrite(velM2, rpm);
-
 /*
   char kara;
   if(Serial.available()>0){
