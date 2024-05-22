@@ -1,11 +1,9 @@
 // MOTOR 1
-int velM1 = 3;   // Controle de velocidade do Motor
 int motor1H = 2; // Controle de acionamento do motor
 int motor1L = 7; // Controle de acionamento do motor
 int foto1 = 8;
 
 // MOTOR 2
-int velM2 = 3;    // Controle de velocidade do Motor
 int motor2H = 12; // Controle de acionamento do motor
 int motor2L = 13; // Controle de acionamento do motor
 int foto2 = 5;
